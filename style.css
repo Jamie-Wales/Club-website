@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+body p,
+button,
+li {
+  font-family: Quicksand;
+  font-size: 1.2rem;
+}
+
+header {
+  width: 100%;
+}
+
+.hero h1 {
+  color: white;
+}
+h1 {
+  font-family: "Yusei Magic";
+  color: #720c11;
+  font-size: 2rem;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #191919;
+}
+
+.nav li {
+  display: inline;
+  color: #f2f0f1;
+  padding: 50px;
+  margin: 10px;
+ 
+  cursor: pointer;
+    
+  
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    border: 1px solid#4CAF50;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: white; 
+    color: black; 
+    border: 1px solid #4CAF50;
+    transition: .5s;
+}
+
+.hero {
+  height: 90vh;
+  background-image: url(./imgs/chris-kendall-sJ6az6-T1u8-unsplash.jpg);
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50%;
+  max-width: 500px;
+  padding: 50px;
+  color: #f2f0f1;
+}
+
+.nav li:hover{
+    transition: .5s;
+  color: #a53744;
+}
+
+article.get-in-touch {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text {
+  width: 50%;
+  padding: 3rem;
+  align-self: center;
+}
+
+.get-in-touch-image {
+  width: 50%;
+}
+
+.membership {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.membership-options {
+  width: 50%;
+  padding: 3rem;
+}
+
+.where-is-the-gym {
+  width: 50%;
+  text-align: center;
+}
+
+.meet-the-team {
+  text-align: center;
+  margin: 0;
+}
+
+.teamMembers {
+  display: flex;
+}
+
+.john {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 400px;
+  width: 100%;
+  background-image: url(./imgs/wade-austin-ellis-RQAf_3Iagqw-unsplash.jpg);
+  background-position: center;
+}
+
+.name {
+  background-color: rgba(165, 55, 68, 0.7);
+  width: 100%;
+}
+
+.get-in-touch h1 {
+  color: #720c11;
+}
+
+.john h1 {
+  font-size: 1.5rem;
+  font-family: Quicksand;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav li {
+    padding: 0;
+  }
+
+  .text {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;s
+  }
+
+  .get-in-touch-image {
+    width: 100%;
+    height: auto;
+  }
+
+.teamMembers{
+    flex-wrap: wrap;
+}
+  
+ 
+  .membership-options {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .where-is-the-gym {
+    width: 100%;
+    text-align: center;
+  }
+}
+  
+
+
+ 
+
