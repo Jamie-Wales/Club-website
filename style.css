@@ -26,6 +26,12 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+    font-family: "Yusei Magic";
+    color: #720c11;
+    font-size: 2rem;
+}
+
 .logo {
   margin: 0;
   padding: 0;
@@ -167,7 +173,7 @@ article.get-in-touch {
   color: #720c11;
 }
 
-.john h1 {
+h3 {
   font-size: 1.5rem;
   font-family: Quicksand;
   color: white;
